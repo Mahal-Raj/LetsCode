@@ -1,0 +1,7 @@
+approach,mode,clips,mean_cer,mean_wer,exact_match_rate,success_at_0_80
+frame_baseline,static,20,0.008724299999999999,0.1,0.75,1.0
+frame_baseline,ticker,20,0.2380089,0.4266666,0.0,0.0
+preprocess_ensemble,static,20,0.009974299999999998,0.11000000000000001,0.75,1.0
+preprocess_ensemble,ticker,20,0.23678939999999998,0.4266666,0.0,0.0
+temporal_consensus,static,20,0.007474299999999999,0.08,0.8,1.0
+temporal_consensus,ticker,20,0.0345122,0.11333339999999999,0.6,1.0

@@ -1,0 +1,402 @@
+[
+  {
+    "clip_id": "h1_static_clean",
+    "path": "benchmark_artifacts\\videos\\h1_static_clean.avi",
+    "ground_truth": "CITY COUNCIL APPROVES NEW TRANSIT PLAN",
+    "mode": "static",
+    "condition": "clean",
+    "seed": 4086
+  },
+  {
+    "clip_id": "h1_static_low_contrast",
+    "path": "benchmark_artifacts\\videos\\h1_static_low_contrast.avi",
+    "ground_truth": "CITY COUNCIL APPROVES NEW TRANSIT PLAN",
+    "mode": "static",
+    "condition": "low_contrast",
+    "seed": 4087
+  },
+  {
+    "clip_id": "h1_static_gaussian_noise",
+    "path": "benchmark_artifacts\\videos\\h1_static_gaussian_noise.avi",
+    "ground_truth": "CITY COUNCIL APPROVES NEW TRANSIT PLAN",
+    "mode": "static",
+    "condition": "gaussian_noise",
+    "seed": 4088
+  },
+  {
+    "clip_id": "h1_static_blur_compression",
+    "path": "benchmark_artifacts\\videos\\h1_static_blur_compression.avi",
+    "ground_truth": "CITY COUNCIL APPROVES NEW TRANSIT PLAN",
+    "mode": "static",
+    "condition": "blur_compression",
+    "seed": 4089
+  },
+  {
+    "clip_id": "h1_ticker_clean",
+    "path": "benchmark_artifacts\\videos\\h1_ticker_clean.avi",
+    "ground_truth": "CITY COUNCIL APPROVES NEW TRANSIT PLAN",
+    "mode": "ticker",
+    "condition": "clean",
+    "seed": 4090
+  },
+  {
+    "clip_id": "h1_ticker_low_contrast",
+    "path": "benchmark_artifacts\\videos\\h1_ticker_low_contrast.avi",
+    "ground_truth": "CITY COUNCIL APPROVES NEW TRANSIT PLAN",
+    "mode": "ticker",
+    "condition": "low_contrast",
+    "seed": 4091
+  },
+  {
+    "clip_id": "h1_ticker_gaussian_noise",
+    "path": "benchmark_artifacts\\videos\\h1_ticker_gaussian_noise.avi",
+    "ground_truth": "CITY COUNCIL APPROVES NEW TRANSIT PLAN",
+    "mode": "ticker",
+    "condition": "gaussian_noise",
+    "seed": 4092
+  },
+  {
+    "clip_id": "h1_ticker_blur_compression",
+    "path": "benchmark_artifacts\\videos\\h1_ticker_blur_compression.avi",
+    "ground_truth": "CITY COUNCIL APPROVES NEW TRANSIT PLAN",
+    "mode": "ticker",
+    "condition": "blur_compression",
+    "seed": 4093
+  },
+  {
+    "clip_id": "h2_static_clean",
+    "path": "benchmark_artifacts\\videos\\h2_static_clean.avi",
+    "ground_truth": "REGIONAL HOSPITAL OPENS COMMUNITY CLINIC",
+    "mode": "static",
+    "condition": "clean",
+    "seed": 4094
+  },
+  {
+    "clip_id": "h2_static_low_contrast",
+    "path": "benchmark_artifacts\\videos\\h2_static_low_contrast.avi",
+    "ground_truth": "REGIONAL HOSPITAL OPENS COMMUNITY CLINIC",
+    "mode": "static",
+    "condition": "low_contrast",
+    "seed": 4095
+  },
+  {
+    "clip_id": "h2_static_gaussian_noise",
+    "path": "benchmark_artifacts\\videos\\h2_static_gaussian_noise.avi",
+    "ground_truth": "REGIONAL HOSPITAL OPENS COMMUNITY CLINIC",
+    "mode": "static",
+    "condition": "gaussian_noise",
+    "seed": 4096
+  },
+  {
+    "clip_id": "h2_static_blur_compression",
+    "path": "benchmark_artifacts\\videos\\h2_static_blur_compression.avi",
+    "ground_truth": "REGIONAL HOSPITAL OPENS COMMUNITY CLINIC",
+    "mode": "static",
+    "condition": "blur_compression",
+    "seed": 4097
+  },
+  {
+    "clip_id": "h2_ticker_clean",
+    "path": "benchmark_artifacts\\videos\\h2_ticker_clean.avi",
+    "ground_truth": "REGIONAL HOSPITAL OPENS COMMUNITY CLINIC",
+    "mode": "ticker",
+    "condition": "clean",
+    "seed": 4098
+  },
+  {
+    "clip_id": "h2_ticker_low_contrast",
+    "path": "benchmark_artifacts\\videos\\h2_ticker_low_contrast.avi",
+    "ground_truth": "REGIONAL HOSPITAL OPENS COMMUNITY CLINIC",
+    "mode": "ticker",
+    "condition": "low_contrast",
+    "seed": 4099
+  },
+  {
+    "clip_id": "h2_ticker_gaussian_noise",
+    "path": "benchmark_artifacts\\videos\\h2_ticker_gaussian_noise.avi",
+    "ground_truth": "REGIONAL HOSPITAL OPENS COMMUNITY CLINIC",
+    "mode": "ticker",
+    "condition": "gaussian_noise",
+    "seed": 4100
+  },
+  {
+    "clip_id": "h2_ticker_blur_compression",
+    "path": "benchmark_artifacts\\videos\\h2_ticker_blur_compression.avi",
+    "ground_truth": "REGIONAL HOSPITAL OPENS COMMUNITY CLINIC",
+    "mode": "ticker",
+    "condition": "blur_compression",
+    "seed": 4101
+  },
+  {
+    "clip_id": "h3_static_clean",
+    "path": "benchmark_artifacts\\videos\\h3_static_clean.avi",
+    "ground_truth": "RESEARCHERS RELEASE OPEN CLIMATE DATASET",
+    "mode": "static",
+    "condition": "clean",
+    "seed": 4102
+  },
+  {
+    "clip_id": "h3_static_low_contrast",
+    "path": "benchmark_artifacts\\videos\\h3_static_low_contrast.avi",
+    "ground_truth": "RESEARCHERS RELEASE OPEN CLIMATE DATASET",
+    "mode": "static",
+    "condition": "low_contrast",
+    "seed": 4103
+  },
+  {
+    "clip_id": "h3_static_gaussian_noise",
+    "path": "benchmark_artifacts\\videos\\h3_static_gaussian_noise.avi",
+    "ground_truth": "RESEARCHERS RELEASE OPEN CLIMATE DATASET",
+    "mode": "static",
+    "condition": "gaussian_noise",
+    "seed": 4104
+  },
+  {
+    "clip_id": "h3_static_blur_compression",
+    "path": "benchmark_artifacts\\videos\\h3_static_blur_compression.avi",
+    "ground_truth": "RESEARCHERS RELEASE OPEN CLIMATE DATASET",
+    "mode": "static",
+    "condition": "blur_compression",
+    "seed": 4105
+  },
+  {
+    "clip_id": "h3_ticker_clean",
+    "path": "benchmark_artifacts\\videos\\h3_ticker_clean.avi",
+    "ground_truth": "RESEARCHERS RELEASE OPEN CLIMATE DATASET",
+    "mode": "ticker",
+    "condition": "clean",
+    "seed": 4106
+  },
+  {
+    "clip_id": "h3_ticker_low_contrast",
+    "path": "benchmark_artifacts\\videos\\h3_ticker_low_contrast.avi",
+    "ground_truth": "RESEARCHERS RELEASE OPEN CLIMATE DATASET",
+    "mode": "ticker",
+    "condition": "low_contrast",
+    "seed": 4107
+  },
+  {
+    "clip_id": "h3_ticker_gaussian_noise",
+    "path": "benchmark_artifacts\\videos\\h3_ticker_gaussian_noise.avi",
+    "ground_truth": "RESEARCHERS RELEASE OPEN CLIMATE DATASET",
+    "mode": "ticker",
+    "condition": "gaussian_noise",
+    "seed": 4108
+  },
+  {
+    "clip_id": "h3_ticker_blur_compression",
+    "path": "benchmark_artifacts\\videos\\h3_ticker_blur_compression.avi",
+    "ground_truth": "RESEARCHERS RELEASE OPEN CLIMATE DATASET",
+    "mode": "ticker",
+    "condition": "blur_compression",
+    "seed": 4109
+  },
+  {
+    "clip_id": "h4_static_clean",
+    "path": "benchmark_artifacts\\videos\\h4_static_clean.avi",
+    "ground_truth": "CENTRAL BANK HOLDS INTEREST RATE STEADY",
+    "mode": "static",
+    "condition": "clean",
+    "seed": 4110
+  },
+  {
+    "clip_id": "h4_static_low_contrast",
+    "path": "benchmark_artifacts\\videos\\h4_static_low_contrast.avi",
+    "ground_truth": "CENTRAL BANK HOLDS INTEREST RATE STEADY",
+    "mode": "static",
+    "condition": "low_contrast",
+    "seed": 4111
+  },
+  {
+    "clip_id": "h4_static_gaussian_noise",
+    "path": "benchmark_artifacts\\videos\\h4_static_gaussian_noise.avi",
+    "ground_truth": "CENTRAL BANK HOLDS INTEREST RATE STEADY",
+    "mode": "static",
+    "condition": "gaussian_noise",
+    "seed": 4112
+  },
+  {
+    "clip_id": "h4_static_blur_compression",
+    "path": "benchmark_artifacts\\videos\\h4_static_blur_compression.avi",
+    "ground_truth": "CENTRAL BANK HOLDS INTEREST RATE STEADY",
+    "mode": "static",
+    "condition": "blur_compression",
+    "seed": 4113
+  },
+  {
+    "clip_id": "h4_ticker_clean",
+    "path": "benchmark_artifacts\\videos\\h4_ticker_clean.avi",
+    "ground_truth": "CENTRAL BANK HOLDS INTEREST RATE STEADY",
+    "mode": "ticker",
+    "condition": "clean",
+    "seed": 4114
+  },
+  {
+    "clip_id": "h4_ticker_low_contrast",
+    "path": "benchmark_artifacts\\videos\\h4_ticker_low_contrast.avi",
+    "ground_truth": "CENTRAL BANK HOLDS INTEREST RATE STEADY",
+    "mode": "ticker",
+    "condition": "low_contrast",
+    "seed": 4115
+  },
+  {
+    "clip_id": "h4_ticker_gaussian_noise",
+    "path": "benchmark_artifacts\\videos\\h4_ticker_gaussian_noise.avi",
+    "ground_truth": "CENTRAL BANK HOLDS INTEREST RATE STEADY",
+    "mode": "ticker",
+    "condition": "gaussian_noise",
+    "seed": 4116
+  },
+  {
+    "clip_id": "h4_ticker_blur_compression",
+    "path": "benchmark_artifacts\\videos\\h4_ticker_blur_compression.avi",
+    "ground_truth": "CENTRAL BANK HOLDS INTEREST RATE STEADY",
+    "mode": "ticker",
+    "condition": "blur_compression",
+    "seed": 4117
+  },
+  {
+    "clip_id": "h5_static_clean",
+    "path": "benchmark_artifacts\\videos\\h5_static_clean.avi",
+    "ground_truth": "LOCAL TEAM ADVANCES TO CHAMPIONSHIP FINAL",
+    "mode": "static",
+    "condition": "clean",
+    "seed": 4118
+  },
+  {
+    "clip_id": "h5_static_low_contrast",
+    "path": "benchmark_artifacts\\videos\\h5_static_low_contrast.avi",
+    "ground_truth": "LOCAL TEAM ADVANCES TO CHAMPIONSHIP FINAL",
+    "mode": "static",
+    "condition": "low_contrast",
+    "seed": 4119
+  },
+  {
+    "clip_id": "h5_static_gaussian_noise",
+    "path": "benchmark_artifacts\\videos\\h5_static_gaussian_noise.avi",
+    "ground_truth": "LOCAL TEAM ADVANCES TO CHAMPIONSHIP FINAL",
+    "mode": "static",
+    "condition": "gaussian_noise",
+    "seed": 4120
+  },
+  {
+    "clip_id": "h5_static_blur_compression",
+    "path": "benchmark_artifacts\\videos\\h5_static_blur_compression.avi",
+    "ground_truth": "LOCAL TEAM ADVANCES TO CHAMPIONSHIP FINAL",
+    "mode": "static",
+    "condition": "blur_compression",
+    "seed": 4121
+  },
+  {
+    "clip_id": "h5_ticker_clean",
+    "path": "benchmark_artifacts\\videos\\h5_ticker_clean.avi",
+    "ground_truth": "LOCAL TEAM ADVANCES TO CHAMPIONSHIP FINAL",
+    "mode": "ticker",
+    "condition": "clean",
+    "seed": 4122
+  },
+  {
+    "clip_id": "h5_ticker_low_contrast",
+    "path": "benchmark_artifacts\\videos\\h5_ticker_low_contrast.avi",
+    "ground_truth": "LOCAL TEAM ADVANCES TO CHAMPIONSHIP FINAL",
+    "mode": "ticker",
+    "condition": "low_contrast",
+    "seed": 4123
+  },
+  {
+    "clip_id": "h5_ticker_gaussian_noise",
+    "path": "benchmark_artifacts\\videos\\h5_ticker_gaussian_noise.avi",
+    "ground_truth": "LOCAL TEAM ADVANCES TO CHAMPIONSHIP FINAL",
+    "mode": "ticker",
+    "condition": "gaussian_noise",
+    "seed": 4124
+  },
+  {
+    "clip_id": "h5_ticker_blur_compression",
+    "path": "benchmark_artifacts\\videos\\h5_ticker_blur_compression.avi",
+    "ground_truth": "LOCAL TEAM ADVANCES TO CHAMPIONSHIP FINAL",
+    "mode": "ticker",
+    "condition": "blur_compression",
+    "seed": 4125
+  },
+  {
+    "clip_id": "negative_1_clean",
+    "path": "benchmark_artifacts\\videos\\negative_1_clean.avi",
+    "ground_truth": "",
+    "mode": "negative",
+    "condition": "clean",
+    "seed": 4126
+  },
+  {
+    "clip_id": "negative_2_low_contrast",
+    "path": "benchmark_artifacts\\videos\\negative_2_low_contrast.avi",
+    "ground_truth": "",
+    "mode": "negative",
+    "condition": "low_contrast",
+    "seed": 4127
+  },
+  {
+    "clip_id": "negative_3_gaussian_noise",
+    "path": "benchmark_artifacts\\videos\\negative_3_gaussian_noise.avi",
+    "ground_truth": "",
+    "mode": "negative",
+    "condition": "gaussian_noise",
+    "seed": 4128
+  },
+  {
+    "clip_id": "negative_4_blur_compression",
+    "path": "benchmark_artifacts\\videos\\negative_4_blur_compression.avi",
+    "ground_truth": "",
+    "mode": "negative",
+    "condition": "blur_compression",
+    "seed": 4129
+  },
+  {
+    "clip_id": "negative_5_clean",
+    "path": "benchmark_artifacts\\videos\\negative_5_clean.avi",
+    "ground_truth": "",
+    "mode": "negative",
+    "condition": "clean",
+    "seed": 4130
+  },
+  {
+    "clip_id": "negative_6_low_contrast",
+    "path": "benchmark_artifacts\\videos\\negative_6_low_contrast.avi",
+    "ground_truth": "",
+    "mode": "negative",
+    "condition": "low_contrast",
+    "seed": 4131
+  },
+  {
+    "clip_id": "negative_7_gaussian_noise",
+    "path": "benchmark_artifacts\\videos\\negative_7_gaussian_noise.avi",
+    "ground_truth": "",
+    "mode": "negative",
+    "condition": "gaussian_noise",
+    "seed": 4132
+  },
+  {
+    "clip_id": "negative_8_blur_compression",
+    "path": "benchmark_artifacts\\videos\\negative_8_blur_compression.avi",
+    "ground_truth": "",
+    "mode": "negative",
+    "condition": "blur_compression",
+    "seed": 4133
+  },
+  {
+    "clip_id": "negative_9_clean",
+    "path": "benchmark_artifacts\\videos\\negative_9_clean.avi",
+    "ground_truth": "",
+    "mode": "negative",
+    "condition": "clean",
+    "seed": 4134
+  },
+  {
+    "clip_id": "negative_10_low_contrast",
+    "path": "benchmark_artifacts\\videos\\negative_10_low_contrast.avi",
+    "ground_truth": "",
+    "mode": "negative",
+    "condition": "low_contrast",
+    "seed": 4135
+  }
+]

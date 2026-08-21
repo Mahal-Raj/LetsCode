@@ -1,0 +1,14 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it using the metadata below."
+title: "Temporal-Consensus OCR for News Headlines"
+type: software
+authors:
+  - family-names: Singh
+    given-names: Sukhraj
+repository-code: "https://github.com/Mahal-Raj/NewsHeadlinesExtractor_OCR"
+url: "https://github.com/Mahal-Raj/NewsHeadlinesExtractor_OCR"
+version: 1.0.0
+date-released: 2026-08-21
+abstract: >-
+  A reproducible, CPU-oriented pipeline for extracting static news lower-thirds and
+  reconstructing scrolling tickers through temporal consensus.

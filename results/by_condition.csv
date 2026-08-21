@@ -1,0 +1,13 @@
+approach,condition,clips,mean_cer,mean_wer,exact_match_rate,success_at_0_80
+frame_baseline,blur_compression,10,0.1309043,0.34,0.2,0.5
+frame_baseline,clean,10,0.11839469999999999,0.2133333,0.5,0.5
+frame_baseline,gaussian_noise,10,0.11839469999999999,0.2133333,0.5,0.5
+frame_baseline,low_contrast,10,0.12577270000000002,0.2866666,0.3,0.5
+preprocess_ensemble,blur_compression,10,0.1309043,0.34,0.2,0.5
+preprocess_ensemble,clean,10,0.11839469999999999,0.2133333,0.5,0.5
+preprocess_ensemble,gaussian_noise,10,0.11839469999999999,0.2133333,0.5,0.5
+preprocess_ensemble,low_contrast,10,0.1258337,0.3066666,0.3,0.5
+temporal_consensus,blur_compression,10,0.0297657,0.18333339999999998,0.5,1.0
+temporal_consensus,clean,10,0.0172561,0.0566667,0.8,1.0
+temporal_consensus,gaussian_noise,10,0.0172561,0.0566667,0.8,1.0
+temporal_consensus,low_contrast,10,0.0196951,0.09,0.7,1.0

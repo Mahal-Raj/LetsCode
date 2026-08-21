@@ -1,0 +1,151 @@
+clip_id,condition,mode,is_positive,approach,reference,hypothesis,cer,wer,similarity,exact,success,sampled_frames,processing_seconds_full_pipeline,video_duration_seconds
+h1_static_clean,clean,static,True,frame_baseline,CITY COUNCIL APPROVES NEW TRANSIT PLAN,CITY COUNCIL APPROVES NEW TRANSIT PLAN,0.0,0.0,1.0,True,True,8,0.87649,4.0
+h1_static_clean,clean,static,True,preprocess_ensemble,CITY COUNCIL APPROVES NEW TRANSIT PLAN,CITY COUNCIL APPROVES NEW TRANSIT PLAN,0.0,0.0,1.0,True,True,8,0.87649,4.0
+h1_static_clean,clean,static,True,temporal_consensus,CITY COUNCIL APPROVES NEW TRANSIT PLAN,CITY COUNCIL APPROVES NEW TRANSIT PLAN,0.0,0.0,1.0,True,True,8,0.87649,4.0
+h1_static_low_contrast,low_contrast,static,True,frame_baseline,CITY COUNCIL APPROVES NEW TRANSIT PLAN,CITY COUNCIL APPROVES NEW TRANSIT PLAN,0.0,0.0,1.0,True,True,8,0.402022,4.0
+h1_static_low_contrast,low_contrast,static,True,preprocess_ensemble,CITY COUNCIL APPROVES NEW TRANSIT PLAN,CITY COUNCIL APPROVES NEW TRANSIT PLAN,0.0,0.0,1.0,True,True,8,0.402022,4.0
+h1_static_low_contrast,low_contrast,static,True,temporal_consensus,CITY COUNCIL APPROVES NEW TRANSIT PLAN,CITY COUNCIL APPROVES NEW TRANSIT PLAN,0.0,0.0,1.0,True,True,8,0.402022,4.0
+h1_static_gaussian_noise,gaussian_noise,static,True,frame_baseline,CITY COUNCIL APPROVES NEW TRANSIT PLAN,CITY COUNCIL APPROVES NEW TRANSIT PLAN,0.0,0.0,1.0,True,True,8,0.446448,4.0
+h1_static_gaussian_noise,gaussian_noise,static,True,preprocess_ensemble,CITY COUNCIL APPROVES NEW TRANSIT PLAN,CITY COUNCIL APPROVES NEW TRANSIT PLAN,0.0,0.0,1.0,True,True,8,0.446448,4.0
+h1_static_gaussian_noise,gaussian_noise,static,True,temporal_consensus,CITY COUNCIL APPROVES NEW TRANSIT PLAN,CITY COUNCIL APPROVES NEW TRANSIT PLAN,0.0,0.0,1.0,True,True,8,0.446448,4.0
+h1_static_blur_compression,blur_compression,static,True,frame_baseline,CITY COUNCIL APPROVES NEW TRANSIT PLAN,CITY COUNCIL PPROVES NEW TRANSIT PLAN,0.026316,0.166667,0.973684,False,True,8,0.399137,4.0
+h1_static_blur_compression,blur_compression,static,True,preprocess_ensemble,CITY COUNCIL APPROVES NEW TRANSIT PLAN,CITY COUNCIL PPROVES NEW TRANSIT PLAN,0.026316,0.166667,0.973684,False,True,8,0.399137,4.0
+h1_static_blur_compression,blur_compression,static,True,temporal_consensus,CITY COUNCIL APPROVES NEW TRANSIT PLAN,CITY COUNCIL PPROVES NEW TRANSIT PLAN,0.026316,0.166667,0.973684,False,True,8,0.399137,4.0
+h1_ticker_clean,clean,ticker,True,frame_baseline,CITY COUNCIL APPROVES NEW TRANSIT PLAN,OUNCIL APPROVES NEW TRANSIT PL,0.210526,0.5,0.789474,False,False,8,0.40065,4.0
+h1_ticker_clean,clean,ticker,True,preprocess_ensemble,CITY COUNCIL APPROVES NEW TRANSIT PLAN,OUNCIL APPROVES NEW TRANSIT PL,0.210526,0.5,0.789474,False,False,8,0.40065,4.0
+h1_ticker_clean,clean,ticker,True,temporal_consensus,CITY COUNCIL APPROVES NEW TRANSIT PLAN,CITY COUNCIL APPROVES NEW TRANSIT PLAN,0.0,0.0,1.0,True,True,8,0.40065,4.0
+h1_ticker_low_contrast,low_contrast,ticker,True,frame_baseline,CITY COUNCIL APPROVES NEW TRANSIT PLAN,OUNCIL APPROVES NEW TRANSIT PL,0.210526,0.5,0.789474,False,False,8,0.392616,4.0
+h1_ticker_low_contrast,low_contrast,ticker,True,preprocess_ensemble,CITY COUNCIL APPROVES NEW TRANSIT PLAN,OUNCIL APPROVES NEW TRANSIT PL,0.210526,0.5,0.789474,False,False,8,0.392616,4.0
+h1_ticker_low_contrast,low_contrast,ticker,True,temporal_consensus,CITY COUNCIL APPROVES NEW TRANSIT PLAN,CITY COUNCIL APPROVES NEW TRANSIT PLAN,0.0,0.0,1.0,True,True,8,0.392616,4.0
+h1_ticker_gaussian_noise,gaussian_noise,ticker,True,frame_baseline,CITY COUNCIL APPROVES NEW TRANSIT PLAN,OUNCIL APPROVES NEW TRANSIT PL,0.210526,0.5,0.789474,False,False,8,0.448477,4.0
+h1_ticker_gaussian_noise,gaussian_noise,ticker,True,preprocess_ensemble,CITY COUNCIL APPROVES NEW TRANSIT PLAN,OUNCIL APPROVES NEW TRANSIT PL,0.210526,0.5,0.789474,False,False,8,0.448477,4.0
+h1_ticker_gaussian_noise,gaussian_noise,ticker,True,temporal_consensus,CITY COUNCIL APPROVES NEW TRANSIT PLAN,CITY COUNCIL APPROVES NEW TRANSIT PLAN,0.0,0.0,1.0,True,True,8,0.448477,4.0
+h1_ticker_blur_compression,blur_compression,ticker,True,frame_baseline,CITY COUNCIL APPROVES NEW TRANSIT PLAN,OUNCIL APPROVES NEW TRANSIT PL,0.210526,0.5,0.789474,False,False,8,0.393363,4.0
+h1_ticker_blur_compression,blur_compression,ticker,True,preprocess_ensemble,CITY COUNCIL APPROVES NEW TRANSIT PLAN,OUNCIL APPROVES NEW TRANSIT PL,0.210526,0.5,0.789474,False,False,8,0.393363,4.0
+h1_ticker_blur_compression,blur_compression,ticker,True,temporal_consensus,CITY COUNCIL APPROVES NEW TRANSIT PLAN,CITY COUNCIL APPROVES NEW TRANSIT PLAN,0.0,0.0,1.0,True,True,8,0.393363,4.0
+h2_static_clean,clean,static,True,frame_baseline,REGIONAL HOSPITAL OPENS COMMUNITY CLINIC,REGIONAL HOSPITAL OPENS COMMUNITY CLINIC,0.0,0.0,1.0,True,True,8,0.389186,4.0
+h2_static_clean,clean,static,True,preprocess_ensemble,REGIONAL HOSPITAL OPENS COMMUNITY CLINIC,REGIONAL HOSPITAL OPENS COMMUNITY CLINIC,0.0,0.0,1.0,True,True,8,0.389186,4.0
+h2_static_clean,clean,static,True,temporal_consensus,REGIONAL HOSPITAL OPENS COMMUNITY CLINIC,REGIONAL HOSPITAL OPENS COMMUNITY CLINIC,0.0,0.0,1.0,True,True,8,0.389186,4.0
+h2_static_low_contrast,low_contrast,static,True,frame_baseline,REGIONAL HOSPITAL OPENS COMMUNITY CLINIC,REGIONAL HOSPITAL OPENS COMMUNITY CLINIC,0.0,0.0,1.0,True,True,8,0.396464,4.0
+h2_static_low_contrast,low_contrast,static,True,preprocess_ensemble,REGIONAL HOSPITAL OPENS COMMUNITY CLINIC,REGIONAL HOSPITAL OPENS COMMUNITY CLINIC,0.0,0.0,1.0,True,True,8,0.396464,4.0
+h2_static_low_contrast,low_contrast,static,True,temporal_consensus,REGIONAL HOSPITAL OPENS COMMUNITY CLINIC,REGIONAL HOSPITAL OPENS COMMUNITY CLINIC,0.0,0.0,1.0,True,True,8,0.396464,4.0
+h2_static_gaussian_noise,gaussian_noise,static,True,frame_baseline,REGIONAL HOSPITAL OPENS COMMUNITY CLINIC,REGIONAL HOSPITAL OPENS COMMUNITY CLINIC,0.0,0.0,1.0,True,True,8,0.42887,4.0
+h2_static_gaussian_noise,gaussian_noise,static,True,preprocess_ensemble,REGIONAL HOSPITAL OPENS COMMUNITY CLINIC,REGIONAL HOSPITAL OPENS COMMUNITY CLINIC,0.0,0.0,1.0,True,True,8,0.42887,4.0
+h2_static_gaussian_noise,gaussian_noise,static,True,temporal_consensus,REGIONAL HOSPITAL OPENS COMMUNITY CLINIC,REGIONAL HOSPITAL OPENS COMMUNITY CLINIC,0.0,0.0,1.0,True,True,8,0.42887,4.0
+h2_static_blur_compression,blur_compression,static,True,frame_baseline,REGIONAL HOSPITAL OPENS COMMUNITY CLINIC,REGIONAL HOSPITAL OPENS COMMUNITY CLINIC,0.0,0.0,1.0,True,True,8,0.397659,4.0
+h2_static_blur_compression,blur_compression,static,True,preprocess_ensemble,REGIONAL HOSPITAL OPENS COMMUNITY CLINIC,REGIONAL HOSPITAL OPENS COMMUNITY CLINIC,0.0,0.0,1.0,True,True,8,0.397659,4.0
+h2_static_blur_compression,blur_compression,static,True,temporal_consensus,REGIONAL HOSPITAL OPENS COMMUNITY CLINIC,REGIONAL HOSPITAL OPENS COMMUNITY CLINIC,0.0,0.0,1.0,True,True,8,0.397659,4.0
+h2_ticker_clean,clean,ticker,True,frame_baseline,REGIONAL HOSPITAL OPENS COMMUNITY CLINIC,AL HOSPITAL OPENS COMMUNITY CL,0.25,0.4,0.75,False,False,8,0.395498,4.0
+h2_ticker_clean,clean,ticker,True,preprocess_ensemble,REGIONAL HOSPITAL OPENS COMMUNITY CLINIC,AL HOSPITAL OPENS COMMUNITY CL,0.25,0.4,0.75,False,False,8,0.395498,4.0
+h2_ticker_clean,clean,ticker,True,temporal_consensus,REGIONAL HOSPITAL OPENS COMMUNITY CLINIC,REGIONAL HOSPITAL OPENS COM CLITY CLINIC,0.075,0.4,0.925,False,True,8,0.395498,4.0
+h2_ticker_low_contrast,low_contrast,ticker,True,frame_baseline,REGIONAL HOSPITAL OPENS COMMUNITY CLINIC,AL HOSPITAL OPENS COMMUNITY CL,0.25,0.4,0.75,False,False,8,0.395572,4.0
+h2_ticker_low_contrast,low_contrast,ticker,True,preprocess_ensemble,REGIONAL HOSPITAL OPENS COMMUNITY CLINIC,AL HOSPITAL OPENS COMMUNITY CL,0.25,0.4,0.75,False,False,8,0.395572,4.0
+h2_ticker_low_contrast,low_contrast,ticker,True,temporal_consensus,REGIONAL HOSPITAL OPENS COMMUNITY CLINIC,REGIONAL HOSPITAL OPENS COM CLITY CLINIC,0.075,0.4,0.925,False,True,8,0.395572,4.0
+h2_ticker_gaussian_noise,gaussian_noise,ticker,True,frame_baseline,REGIONAL HOSPITAL OPENS COMMUNITY CLINIC,AL HOSPITAL OPENS COMMUNITY CL,0.25,0.4,0.75,False,False,8,0.576419,4.0
+h2_ticker_gaussian_noise,gaussian_noise,ticker,True,preprocess_ensemble,REGIONAL HOSPITAL OPENS COMMUNITY CLINIC,AL HOSPITAL OPENS COMMUNITY CL,0.25,0.4,0.75,False,False,8,0.576419,4.0
+h2_ticker_gaussian_noise,gaussian_noise,ticker,True,temporal_consensus,REGIONAL HOSPITAL OPENS COMMUNITY CLINIC,REGIONAL HOSPITAL OPENS COM CLITY CLINIC,0.075,0.4,0.925,False,True,8,0.576419,4.0
+h2_ticker_blur_compression,blur_compression,ticker,True,frame_baseline,REGIONAL HOSPITAL OPENS COMMUNITY CLINIC,AL HOSPITAL OPENS COMMUNITY CL,0.25,0.4,0.75,False,False,8,0.606323,4.0
+h2_ticker_blur_compression,blur_compression,ticker,True,preprocess_ensemble,REGIONAL HOSPITAL OPENS COMMUNITY CLINIC,AL HOSPITAL OPENS COMMUNITY CL,0.25,0.4,0.75,False,False,8,0.606323,4.0
+h2_ticker_blur_compression,blur_compression,ticker,True,temporal_consensus,REGIONAL HOSPITAL OPENS COMMUNITY CLINIC,REGIONAL HOSPITAL OPENS COM CLITY CLINIC,0.075,0.4,0.925,False,True,8,0.606323,4.0
+h3_static_clean,clean,static,True,frame_baseline,RESEARCHERS RELEASE OPEN CLIMATE DATASET,RESEARCHERS RELEASE OPEN CLIMATE DATASET,0.0,0.0,1.0,True,True,8,0.612025,4.0
+h3_static_clean,clean,static,True,preprocess_ensemble,RESEARCHERS RELEASE OPEN CLIMATE DATASET,RESEARCHERS RELEASE OPEN CLIMATE DATASET,0.0,0.0,1.0,True,True,8,0.612025,4.0
+h3_static_clean,clean,static,True,temporal_consensus,RESEARCHERS RELEASE OPEN CLIMATE DATASET,RESEARCHERS RELEASE OPEN CLIMATE DATASET,0.0,0.0,1.0,True,True,8,0.612025,4.0
+h3_static_low_contrast,low_contrast,static,True,frame_baseline,RESEARCHERS RELEASE OPEN CLIMATE DATASET,RESEARCHERS RELEASE OPENCLIMATE DATASET,0.025,0.4,0.975,False,True,8,0.602843,4.0
+h3_static_low_contrast,low_contrast,static,True,preprocess_ensemble,RESEARCHERS RELEASE OPEN CLIMATE DATASET,RESEARCHERS RELEASEOPENCLIMATE DATASET,0.05,0.6,0.95,False,True,8,0.602843,4.0
+h3_static_low_contrast,low_contrast,static,True,temporal_consensus,RESEARCHERS RELEASE OPEN CLIMATE DATASET,RESEARCHERS RELEASE OPEN CLIMATE DATASET,0.0,0.0,1.0,True,True,8,0.602843,4.0
+h3_static_gaussian_noise,gaussian_noise,static,True,frame_baseline,RESEARCHERS RELEASE OPEN CLIMATE DATASET,RESEARCHERS RELEASE OPEN CLIMATE DATASET,0.0,0.0,1.0,True,True,8,0.66946,4.0
+h3_static_gaussian_noise,gaussian_noise,static,True,preprocess_ensemble,RESEARCHERS RELEASE OPEN CLIMATE DATASET,RESEARCHERS RELEASE OPEN CLIMATE DATASET,0.0,0.0,1.0,True,True,8,0.66946,4.0
+h3_static_gaussian_noise,gaussian_noise,static,True,temporal_consensus,RESEARCHERS RELEASE OPEN CLIMATE DATASET,RESEARCHERS RELEASE OPEN CLIMATE DATASET,0.0,0.0,1.0,True,True,8,0.66946,4.0
+h3_static_blur_compression,blur_compression,static,True,frame_baseline,RESEARCHERS RELEASE OPEN CLIMATE DATASET,RESEARCHERS RELEASEOPENCLIMATE DATASET,0.05,0.6,0.95,False,True,8,0.610647,4.0
+h3_static_blur_compression,blur_compression,static,True,preprocess_ensemble,RESEARCHERS RELEASE OPEN CLIMATE DATASET,RESEARCHERS RELASE OPENCLIMATE DATASET,0.05,0.6,0.95,False,True,8,0.610647,4.0
+h3_static_blur_compression,blur_compression,static,True,temporal_consensus,RESEARCHERS RELEASE OPEN CLIMATE DATASET,RESEARCHERS RELASE OPENCLIMATE DATASET,0.05,0.6,0.95,False,True,8,0.610647,4.0
+h3_ticker_clean,clean,ticker,True,frame_baseline,RESEARCHERS RELEASE OPEN CLIMATE DATASET,CHERS RELEASE OPEN CLIMATE DAT,0.25,0.4,0.75,False,False,8,0.616603,4.0
+h3_ticker_clean,clean,ticker,True,preprocess_ensemble,RESEARCHERS RELEASE OPEN CLIMATE DATASET,CHERS RELEASE OPEN CLIMATE DAT,0.25,0.4,0.75,False,False,8,0.616603,4.0
+h3_ticker_clean,clean,ticker,True,temporal_consensus,RESEARCHERS RELEASE OPEN CLIMATE DATASET,RESEARCHERS RELEASE OPEN CLIMATE DATASET,0.0,0.0,1.0,True,True,8,0.616603,4.0
+h3_ticker_low_contrast,low_contrast,ticker,True,frame_baseline,RESEARCHERS RELEASE OPEN CLIMATE DATASET,CHERS RELEASE OPEN CLIMATE DAT,0.25,0.4,0.75,False,False,8,0.592694,4.0
+h3_ticker_low_contrast,low_contrast,ticker,True,preprocess_ensemble,RESEARCHERS RELEASE OPEN CLIMATE DATASET,CHERS RELEASE OPEN CLIMATE DAT,0.25,0.4,0.75,False,False,8,0.592694,4.0
+h3_ticker_low_contrast,low_contrast,ticker,True,temporal_consensus,RESEARCHERS RELEASE OPEN CLIMATE DATASET,RESEARCHERS RELEASE OPEN CLIMATE DATASET,0.0,0.0,1.0,True,True,8,0.592694,4.0
+h3_ticker_gaussian_noise,gaussian_noise,ticker,True,frame_baseline,RESEARCHERS RELEASE OPEN CLIMATE DATASET,CHERS RELEASE OPEN CLIMATE DAT,0.25,0.4,0.75,False,False,8,0.663724,4.0
+h3_ticker_gaussian_noise,gaussian_noise,ticker,True,preprocess_ensemble,RESEARCHERS RELEASE OPEN CLIMATE DATASET,CHERS RELEASE OPEN CLIMATE DAT,0.25,0.4,0.75,False,False,8,0.663724,4.0
+h3_ticker_gaussian_noise,gaussian_noise,ticker,True,temporal_consensus,RESEARCHERS RELEASE OPEN CLIMATE DATASET,RESEARCHERS RELEASE OPEN CLIMATE DATASET,0.0,0.0,1.0,True,True,8,0.663724,4.0
+h3_ticker_blur_compression,blur_compression,ticker,True,frame_baseline,RESEARCHERS RELEASE OPEN CLIMATE DATASET,CHERS RELEASE OPEN CLIMATE DAT,0.25,0.4,0.75,False,False,8,0.61477,4.0
+h3_ticker_blur_compression,blur_compression,ticker,True,preprocess_ensemble,RESEARCHERS RELEASE OPEN CLIMATE DATASET,CHERS RELEASE OPEN CLIMATE DAT,0.25,0.4,0.75,False,False,8,0.61477,4.0
+h3_ticker_blur_compression,blur_compression,ticker,True,temporal_consensus,RESEARCHERS RELEASE OPEN CLIMATE DATASET,RESEARCHERS RELEASE OPEN CLIMATE DATASET,0.0,0.0,1.0,True,True,8,0.61477,4.0
+h4_static_clean,clean,static,True,frame_baseline,CENTRAL BANK HOLDS INTEREST RATE STEADY,CENTRAL BANK HOLDS INTEREST RATE STEADY,0.0,0.0,1.0,True,True,8,0.611883,4.0
+h4_static_clean,clean,static,True,preprocess_ensemble,CENTRAL BANK HOLDS INTEREST RATE STEADY,CENTRAL BANK HOLDS INTEREST RATE STEADY,0.0,0.0,1.0,True,True,8,0.611883,4.0
+h4_static_clean,clean,static,True,temporal_consensus,CENTRAL BANK HOLDS INTEREST RATE STEADY,CENTRAL BANK HOLDS INTEREST RATE STEADY,0.0,0.0,1.0,True,True,8,0.611883,4.0
+h4_static_low_contrast,low_contrast,static,True,frame_baseline,CENTRAL BANK HOLDS INTEREST RATE STEADY,CENTRAL BANK HOLDS INTEREST RATE STEADY,0.0,0.0,1.0,True,True,8,0.615425,4.0
+h4_static_low_contrast,low_contrast,static,True,preprocess_ensemble,CENTRAL BANK HOLDS INTEREST RATE STEADY,CENTRAL BANK HOLDS INTEREST RATE STEADY,0.0,0.0,1.0,True,True,8,0.615425,4.0
+h4_static_low_contrast,low_contrast,static,True,temporal_consensus,CENTRAL BANK HOLDS INTEREST RATE STEADY,CENTRAL BANK HOLDS INTEREST RATE STEADY,0.0,0.0,1.0,True,True,8,0.615425,4.0
+h4_static_gaussian_noise,gaussian_noise,static,True,frame_baseline,CENTRAL BANK HOLDS INTEREST RATE STEADY,CENTRAL BANK HOLDS INTEREST RATE STEADY,0.0,0.0,1.0,True,True,8,0.670952,4.0
+h4_static_gaussian_noise,gaussian_noise,static,True,preprocess_ensemble,CENTRAL BANK HOLDS INTEREST RATE STEADY,CENTRAL BANK HOLDS INTEREST RATE STEADY,0.0,0.0,1.0,True,True,8,0.670952,4.0
+h4_static_gaussian_noise,gaussian_noise,static,True,temporal_consensus,CENTRAL BANK HOLDS INTEREST RATE STEADY,CENTRAL BANK HOLDS INTEREST RATE STEADY,0.0,0.0,1.0,True,True,8,0.670952,4.0
+h4_static_blur_compression,blur_compression,static,True,frame_baseline,CENTRAL BANK HOLDS INTEREST RATE STEADY,CENTRAL BANK HOLDS INTEREST RATE STEADY,0.0,0.0,1.0,True,True,8,0.611652,4.0
+h4_static_blur_compression,blur_compression,static,True,preprocess_ensemble,CENTRAL BANK HOLDS INTEREST RATE STEADY,CENTRAL BANK HOLDS INTEREST RATE STEADY,0.0,0.0,1.0,True,True,8,0.611652,4.0
+h4_static_blur_compression,blur_compression,static,True,temporal_consensus,CENTRAL BANK HOLDS INTEREST RATE STEADY,CENTRAL BANK HOLDS INTEREST RATE STEADY,0.0,0.0,1.0,True,True,8,0.611652,4.0
+h4_ticker_clean,clean,ticker,True,frame_baseline,CENTRAL BANK HOLDS INTEREST RATE STEADY,AL BANK HOLDS INTEREST RATE STE,0.205128,0.333333,0.794872,False,False,8,0.619455,4.0
+h4_ticker_clean,clean,ticker,True,preprocess_ensemble,CENTRAL BANK HOLDS INTEREST RATE STEADY,AL BANK HOLDS INTEREST RATE STE,0.205128,0.333333,0.794872,False,False,8,0.619455,4.0
+h4_ticker_clean,clean,ticker,True,temporal_consensus,CENTRAL BANK HOLDS INTEREST RATE STEADY,CENTRAL BANK HOLDS INTEREST RATE STEADY,0.0,0.0,1.0,True,True,8,0.619455,4.0
+h4_ticker_low_contrast,low_contrast,ticker,True,frame_baseline,CENTRAL BANK HOLDS INTEREST RATE STEADY,AL BANK HOLDS INTEREST RATE STE,0.205128,0.333333,0.794872,False,False,8,0.594675,4.0
+h4_ticker_low_contrast,low_contrast,ticker,True,preprocess_ensemble,CENTRAL BANK HOLDS INTEREST RATE STEADY,AL BANK HOLDS INTEREST RATE STE,0.205128,0.333333,0.794872,False,False,8,0.594675,4.0
+h4_ticker_low_contrast,low_contrast,ticker,True,temporal_consensus,CENTRAL BANK HOLDS INTEREST RATE STEADY,CENTRAL BANK HOLDS INTEREST RATE STEADY,0.0,0.0,1.0,True,True,8,0.594675,4.0
+h4_ticker_gaussian_noise,gaussian_noise,ticker,True,frame_baseline,CENTRAL BANK HOLDS INTEREST RATE STEADY,AL BANK HOLDS INTEREST RATE STE,0.205128,0.333333,0.794872,False,False,8,0.681154,4.0
+h4_ticker_gaussian_noise,gaussian_noise,ticker,True,preprocess_ensemble,CENTRAL BANK HOLDS INTEREST RATE STEADY,AL BANK HOLDS INTEREST RATE STE,0.205128,0.333333,0.794872,False,False,8,0.681154,4.0
+h4_ticker_gaussian_noise,gaussian_noise,ticker,True,temporal_consensus,CENTRAL BANK HOLDS INTEREST RATE STEADY,CENTRAL BANK HOLDS INTEREST RATE STEADY,0.0,0.0,1.0,True,True,8,0.681154,4.0
+h4_ticker_blur_compression,blur_compression,ticker,True,frame_baseline,CENTRAL BANK HOLDS INTEREST RATE STEADY,AL BANK HOLDS INTEREST RATE STE,0.205128,0.333333,0.794872,False,False,8,0.621662,4.0
+h4_ticker_blur_compression,blur_compression,ticker,True,preprocess_ensemble,CENTRAL BANK HOLDS INTEREST RATE STEADY,AL BANK HOLDS INTEREST RATE STE,0.205128,0.333333,0.794872,False,False,8,0.621662,4.0
+h4_ticker_blur_compression,blur_compression,ticker,True,temporal_consensus,CENTRAL BANK HOLDS INTEREST RATE STEADY,CENTRAL BANK HOLDS INTEREST RATE STEADY,0.0,0.0,1.0,True,True,8,0.621662,4.0
+h5_static_clean,clean,static,True,frame_baseline,LOCAL TEAM ADVANCES TO CHAMPIONSHIP FINAL,LOCAL TEAM ADVANCES TO CHAMPIONSHIP FINAL,0.0,0.0,1.0,True,True,8,0.880318,4.0
+h5_static_clean,clean,static,True,preprocess_ensemble,LOCAL TEAM ADVANCES TO CHAMPIONSHIP FINAL,LOCAL TEAM ADVANCES TO CHAMPIONSHIP FINAL,0.0,0.0,1.0,True,True,8,0.880318,4.0
+h5_static_clean,clean,static,True,temporal_consensus,LOCAL TEAM ADVANCES TO CHAMPIONSHIP FINAL,LOCAL TEAM ADVANCES TO CHAMPIONSHIP FINAL,0.0,0.0,1.0,True,True,8,0.880318,4.0
+h5_static_low_contrast,low_contrast,static,True,frame_baseline,LOCAL TEAM ADVANCES TO CHAMPIONSHIP FINAL,LOCAL TEAMADVANCES TO CHAMPIONSHIP FINAL,0.02439,0.333333,0.97561,False,True,8,1.144767,4.0
+h5_static_low_contrast,low_contrast,static,True,preprocess_ensemble,LOCAL TEAM ADVANCES TO CHAMPIONSHIP FINAL,LOCAL TEAMADVANCES TO CHAMPIONSHIP FINAL,0.02439,0.333333,0.97561,False,True,8,1.144767,4.0
+h5_static_low_contrast,low_contrast,static,True,temporal_consensus,LOCAL TEAM ADVANCES TO CHAMPIONSHIP FINAL,LOCAL TEAMADVANCES TO CHAMPIONSHIP FINAL,0.02439,0.333333,0.97561,False,True,8,1.144767,4.0
+h5_static_gaussian_noise,gaussian_noise,static,True,frame_baseline,LOCAL TEAM ADVANCES TO CHAMPIONSHIP FINAL,LOCAL TEAM ADVANCES TO CHAMPIONSHIP FINAL,0.0,0.0,1.0,True,True,8,1.190457,4.0
+h5_static_gaussian_noise,gaussian_noise,static,True,preprocess_ensemble,LOCAL TEAM ADVANCES TO CHAMPIONSHIP FINAL,LOCAL TEAM ADVANCES TO CHAMPIONSHIP FINAL,0.0,0.0,1.0,True,True,8,1.190457,4.0
+h5_static_gaussian_noise,gaussian_noise,static,True,temporal_consensus,LOCAL TEAM ADVANCES TO CHAMPIONSHIP FINAL,LOCAL TEAM ADVANCES TO CHAMPIONSHIP FINAL,0.0,0.0,1.0,True,True,8,1.190457,4.0
+h5_static_blur_compression,blur_compression,static,True,frame_baseline,LOCAL TEAM ADVANCES TO CHAMPIONSHIP FINAL,LOCAL TEAMADVANCES TO CHMPIONSHIP FINAL,0.04878,0.5,0.95122,False,True,8,1.076461,4.0
+h5_static_blur_compression,blur_compression,static,True,preprocess_ensemble,LOCAL TEAM ADVANCES TO CHAMPIONSHIP FINAL,LOCAL TEAMADVANCES TO CHMPIONSHIP FINAL,0.04878,0.5,0.95122,False,True,8,1.076461,4.0
+h5_static_blur_compression,blur_compression,static,True,temporal_consensus,LOCAL TEAM ADVANCES TO CHAMPIONSHIP FINAL,LOCAL TEAMADVANCES TO CHMPIONSHIP FINAL,0.04878,0.5,0.95122,False,True,8,1.076461,4.0
+h5_ticker_clean,clean,ticker,True,frame_baseline,LOCAL TEAM ADVANCES TO CHAMPIONSHIP FINAL,EAM ADVANCES TO CHAMPIONSHIP F,0.268293,0.5,0.731707,False,False,8,1.101576,4.0
+h5_ticker_clean,clean,ticker,True,preprocess_ensemble,LOCAL TEAM ADVANCES TO CHAMPIONSHIP FINAL,EAM ADVANCES TO CHAMPIONSHIP F,0.268293,0.5,0.731707,False,False,8,1.101576,4.0
+h5_ticker_clean,clean,ticker,True,temporal_consensus,LOCAL TEAM ADVANCES TO CHAMPIONSHIP FINAL,LOCAL TEAM ADVANCES TO CHAMPIONSHIP F,0.097561,0.166667,0.902439,False,True,8,1.101576,4.0
+h5_ticker_low_contrast,low_contrast,ticker,True,frame_baseline,LOCAL TEAM ADVANCES TO CHAMPIONSHIP FINAL,EAM ADVANCES TO CHAMPIONSHIP P,0.292683,0.5,0.707317,False,False,8,1.052279,4.0
+h5_ticker_low_contrast,low_contrast,ticker,True,preprocess_ensemble,LOCAL TEAM ADVANCES TO CHAMPIONSHIP FINAL,EAM ADVANCES TO CHAMPIONSHIP F,0.268293,0.5,0.731707,False,False,8,1.052279,4.0
+h5_ticker_low_contrast,low_contrast,ticker,True,temporal_consensus,LOCAL TEAM ADVANCES TO CHAMPIONSHIP FINAL,LOCAL TEAM ADVANCES TO CHAMPIONSHIP F,0.097561,0.166667,0.902439,False,True,8,1.052279,4.0
+h5_ticker_gaussian_noise,gaussian_noise,ticker,True,frame_baseline,LOCAL TEAM ADVANCES TO CHAMPIONSHIP FINAL,EAM ADVANCES TO CHAMPIONSHIP F,0.268293,0.5,0.731707,False,False,8,1.108888,4.0
+h5_ticker_gaussian_noise,gaussian_noise,ticker,True,preprocess_ensemble,LOCAL TEAM ADVANCES TO CHAMPIONSHIP FINAL,EAM ADVANCES TO CHAMPIONSHIP F,0.268293,0.5,0.731707,False,False,8,1.108888,4.0
+h5_ticker_gaussian_noise,gaussian_noise,ticker,True,temporal_consensus,LOCAL TEAM ADVANCES TO CHAMPIONSHIP FINAL,LOCAL TEAM ADVANCES TO CHAMPIONSHIP F,0.097561,0.166667,0.902439,False,True,8,1.108888,4.0
+h5_ticker_blur_compression,blur_compression,ticker,True,frame_baseline,LOCAL TEAM ADVANCES TO CHAMPIONSHIP FINAL,EAM ADVANCES TO CHAMPIONSHIP F,0.268293,0.5,0.731707,False,False,8,1.069757,4.0
+h5_ticker_blur_compression,blur_compression,ticker,True,preprocess_ensemble,LOCAL TEAM ADVANCES TO CHAMPIONSHIP FINAL,EAM ADVANCES TO CHAMPIONSHIP F,0.268293,0.5,0.731707,False,False,8,1.069757,4.0
+h5_ticker_blur_compression,blur_compression,ticker,True,temporal_consensus,LOCAL TEAM ADVANCES TO CHAMPIONSHIP FINAL,LOCAL TEAM ADVANCES TO CHAMPIONSHIP F,0.097561,0.166667,0.902439,False,True,8,1.069757,4.0
+negative_1_clean,clean,negative,False,frame_baseline,,,0.0,0.0,1.0,True,True,8,1.064755,4.0
+negative_1_clean,clean,negative,False,preprocess_ensemble,,,0.0,0.0,1.0,True,True,8,1.064755,4.0
+negative_1_clean,clean,negative,False,temporal_consensus,,,0.0,0.0,1.0,True,True,8,1.064755,4.0
+negative_2_low_contrast,low_contrast,negative,False,frame_baseline,,,0.0,0.0,1.0,True,True,8,1.072831,4.0
+negative_2_low_contrast,low_contrast,negative,False,preprocess_ensemble,,,0.0,0.0,1.0,True,True,8,1.072831,4.0
+negative_2_low_contrast,low_contrast,negative,False,temporal_consensus,,,0.0,0.0,1.0,True,True,8,1.072831,4.0
+negative_3_gaussian_noise,gaussian_noise,negative,False,frame_baseline,,,0.0,0.0,1.0,True,True,8,1.148494,4.0
+negative_3_gaussian_noise,gaussian_noise,negative,False,preprocess_ensemble,,,0.0,0.0,1.0,True,True,8,1.148494,4.0
+negative_3_gaussian_noise,gaussian_noise,negative,False,temporal_consensus,,,0.0,0.0,1.0,True,True,8,1.148494,4.0
+negative_4_blur_compression,blur_compression,negative,False,frame_baseline,,,0.0,0.0,1.0,True,True,8,1.070215,4.0
+negative_4_blur_compression,blur_compression,negative,False,preprocess_ensemble,,,0.0,0.0,1.0,True,True,8,1.070215,4.0
+negative_4_blur_compression,blur_compression,negative,False,temporal_consensus,,,0.0,0.0,1.0,True,True,8,1.070215,4.0
+negative_5_clean,clean,negative,False,frame_baseline,,,0.0,0.0,1.0,True,True,8,1.108244,4.0
+negative_5_clean,clean,negative,False,preprocess_ensemble,,,0.0,0.0,1.0,True,True,8,1.108244,4.0
+negative_5_clean,clean,negative,False,temporal_consensus,,,0.0,0.0,1.0,True,True,8,1.108244,4.0
+negative_6_low_contrast,low_contrast,negative,False,frame_baseline,,,0.0,0.0,1.0,True,True,8,1.041028,4.0
+negative_6_low_contrast,low_contrast,negative,False,preprocess_ensemble,,,0.0,0.0,1.0,True,True,8,1.041028,4.0
+negative_6_low_contrast,low_contrast,negative,False,temporal_consensus,,,0.0,0.0,1.0,True,True,8,1.041028,4.0
+negative_7_gaussian_noise,gaussian_noise,negative,False,frame_baseline,,,0.0,0.0,1.0,True,True,8,1.067431,4.0
+negative_7_gaussian_noise,gaussian_noise,negative,False,preprocess_ensemble,,,0.0,0.0,1.0,True,True,8,1.067431,4.0
+negative_7_gaussian_noise,gaussian_noise,negative,False,temporal_consensus,,,0.0,0.0,1.0,True,True,8,1.067431,4.0
+negative_8_blur_compression,blur_compression,negative,False,frame_baseline,,,0.0,0.0,1.0,True,True,8,1.036302,4.0
+negative_8_blur_compression,blur_compression,negative,False,preprocess_ensemble,,,0.0,0.0,1.0,True,True,8,1.036302,4.0
+negative_8_blur_compression,blur_compression,negative,False,temporal_consensus,,,0.0,0.0,1.0,True,True,8,1.036302,4.0
+negative_9_clean,clean,negative,False,frame_baseline,,,0.0,0.0,1.0,True,True,8,1.033566,4.0
+negative_9_clean,clean,negative,False,preprocess_ensemble,,,0.0,0.0,1.0,True,True,8,1.033566,4.0
+negative_9_clean,clean,negative,False,temporal_consensus,,,0.0,0.0,1.0,True,True,8,1.033566,4.0
+negative_10_low_contrast,low_contrast,negative,False,frame_baseline,,,0.0,0.0,1.0,True,True,8,1.03581,4.0
+negative_10_low_contrast,low_contrast,negative,False,preprocess_ensemble,,,0.0,0.0,1.0,True,True,8,1.03581,4.0
+negative_10_low_contrast,low_contrast,negative,False,temporal_consensus,,,0.0,0.0,1.0,True,True,8,1.03581,4.0

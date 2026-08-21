@@ -1,0 +1,63 @@
+{
+  "benchmark_version": "1.0",
+  "clip_count": 50,
+  "positive_clips": 40,
+  "negative_clips": 10,
+  "conditions": [
+    "clean",
+    "low_contrast",
+    "gaussian_noise",
+    "blur_compression"
+  ],
+  "modes": [
+    "static",
+    "ticker"
+  ],
+  "frame_size": [
+    640,
+    360
+  ],
+  "fps": 6,
+  "frames_per_clip": 24,
+  "sample_fps": 2.0,
+  "median_full_pipeline_seconds_per_clip": 0.6180288500036113,
+  "runtime": {
+    "python": "3.13.9",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "processor": "Intel64 Family 6 Model 154 Stepping 4, GenuineIntel",
+    "numpy": "2.5.2",
+    "opencv": "5.0.0.93",
+    "onnxruntime": "1.29.0",
+    "rapidocr": "3.9.2"
+  },
+  "configuration": {
+    "roi": {
+      "x": 0.03,
+      "y": 0.68,
+      "width": 0.94,
+      "height": 0.21
+    },
+    "sample_fps": 2.0,
+    "mode": "auto",
+    "preprocessing": [
+      "raw",
+      "clahe",
+      "otsu"
+    ],
+    "minimum_confidence": 0.3,
+    "minimum_words": 3,
+    "similarity_threshold": 80.0,
+    "static_support_ratio": 0.34
+  },
+  "paired_statistics": {
+    "paired_positive_clips": 40,
+    "success_rate_difference": 0.5,
+    "bootstrap_95_percent_ci": [
+      0.35,
+      0.65
+    ],
+    "mcnemar_exact_p": 1.9073486328125e-06,
+    "bootstrap_seed": 4086,
+    "bootstrap_samples": 5000
+  }
+}
