@@ -264,31 +264,25 @@ one command recreates them and the CSV, JSON, and \LaTeX{} result artifacts.
 
 \section{Results}
 
-\begin{table*}[t]
-\caption{Overall controlled-benchmark results.  Lower is better for CER/WER; higher is better
-otherwise.  Precision, recall, and F1 use the 0.80 sequence-success rule.}
-\label{tab:overall}
+\begin{figure*}[t]
 \centering
-\begin{tabular}{lccccccc}
-\toprule
-Method & CER $\downarrow$ & WER $\downarrow$ & Exact $\uparrow$ & Success $\uparrow$ & Precision & Recall & F1 \\
-\midrule
-Center frame & \BaselineCER & \BaselineWER & \BaselineExact & \BaselineSuccess & 100.00\% & 50.00\% & \BaselineFOne \\
-Center + multiview & \EnsembleCER & \EnsembleWER & \EnsembleExact & \EnsembleSuccess & 100.00\% & 50.00\% & \EnsembleFOne \\
-\textbf{Temporal consensus} & \textbf{\TemporalCER} & \textbf{\TemporalWER} & \textbf{\TemporalExact} & \textbf{\TemporalSuccess} & \textbf{100.00\%} & \textbf{100.00\%} & \textbf{\TemporalFOne} \\
-\bottomrule
-\end{tabular}
-\end{table*}
+\includegraphics[width=0.88\textwidth]{figures/benchmark_comparison.png}
+\caption{Headline-level comparison on the 50-clip controlled benchmark; CER and WER decrease,
+while exact match and threshold success increase.}
+\label{fig:benchmark-comparison}
+\end{figure*}
 
-Table~\ref{tab:overall} shows that preprocessing selection alone does not improve center-frame
-OCR: CER is unchanged (12.34\% versus 12.34\%) and WER is slightly worse (26.33\% versus 26.83\%).
-Thus the temporal gain cannot be attributed to preprocessing.
+Preprocessing selection alone does not improve center-frame OCR: CER is unchanged (12.34\%
+versus 12.34\%), WER is slightly worse (26.33\% versus 26.83\%), and exact match and threshold
+success remain 37.5\% and 50.0\%.  Thus the temporal gain cannot be attributed to preprocessing.
 
 Temporal consensus reduces CER by 10.24 percentage points and WER by 16.66 points.  Exact match
 rises from 37.5\% to 70.0\%.  All 40 positive clips reach the declared 0.80 similarity threshold,
 and all 10 controls are rejected, producing \TemporalFOne{} F1.  The paired success gain is
 \SuccessDifference{} points (95\% bootstrap CI \BootstrapLow{}--\BootstrapHigh{}); the exact
-McNemar result is $p=1.91\times10^{-6}$.
+McNemar result is $p=1.91\times10^{-6}$.  Figure~\ref{fig:benchmark-comparison} makes the four
+headline-level changes visible on a common percentage scale.  Center-frame precision, recall, and
+F1 are 100.0\%, 50.0\%, and 66.67\%; temporal consensus reaches 100.0\% on all three.
 
 \begin{table}[t]
 \caption{Positive-clip results stratified by motion mode.}
